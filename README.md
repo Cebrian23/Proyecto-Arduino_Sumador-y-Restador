@@ -18,7 +18,7 @@ En caso de ser el pulsador que hemos conectado al Pin nº 5 de Arduino UNO, incr
 En caso de ser el pulsador que hemos conectado al Pin nº 3, hacemos lo mismo que en caso anterior, pero en vez de incrementar el contador, lo decrementamos.
 
 En la función "Comprobar", verificamos el valor de la variable "Cuenta" para encender o apagar los leds. En caso de ser inferior o igual a 0 o superior a 6, ninguno de los leds se enciende.
-En el resto de los casos, el valor que tiene la variable será el número de leds que encendamos, los cuales estarán conectados a los Pines 8 a 13 de Arduino UNO.
+En el resto de los casos, el valor que tiene la variable será el número de leds que encendamos, los cuales estarán conectados entre los Pines 8 y 13 de Arduino UNO.
 
 # Resultado final en TinkerCAD
 Una vez realizado esto, si creamos un proyecto en TinkerCAD, el circuito resultante para que este código funcione es el siguiente:
